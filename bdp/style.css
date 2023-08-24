@@ -1,0 +1,138 @@
+     .about{
+        padding-left:10rem;
+        padding-right:10rem;
+     }
+
+     .about .box-container:first-child{
+       border-bottom:0.3rem solid orange;
+       padding-bottom:4rem;
+       margin-bottom:1.5rem;
+     }
+
+     .about .heading{
+       font-family:Raleway-Thin,sans-serif;
+       font-weight:100;  
+     }
+
+     .left{
+       width:50%;
+       padding-left:2rem;
+       padding-right:5rem;
+       border-right:0.2rem solid #fff;
+     }
+
+     .left,.right .heading-2{
+       margin-bottom:3rem;
+     }
+
+     .right{
+       width:50%;
+       padding-left:4rem;
+     }
+
+      .center-text{
+        text-align:center; 
+      }
+
+      .left-text{
+        text-align:left; 
+      }
+
+      .right-text{
+        text-align:right; 
+      }
+
+      .right p{
+        color:#fff;
+        line-height:2.5rem; 
+      }
+
+      .about-m-content{
+        padding-left:10rem;
+        padding-right:10rem;
+        width:100%;
+      }
+
+      .full{
+        padding:0;
+      }
+
+      .right-box{
+        width:50rem;
+        margin-left:1rem;
+      }
+
+      .left img{
+         width:100%;
+         height:35rem;   
+      }
+
+      @media only screen and (max-width:1000px){
+        .about{
+          padding-left:2rem;
+          padding-right:2rem;
+        } 
+      }
+
+      @media only screen and (max-width:880px){
+        .left{
+           width:100%;
+           border-right:none;
+        }
+
+        .right{
+          padding-top:2.5rem;
+          width:100%; 
+        }
+
+        .f-1{
+          order:1;
+        }
+
+        .f-2{
+          order:2;
+        }
+
+        .f-3{
+          order:2;
+        }
+
+        .f-4{
+          order:1;
+        }
+
+        .f-7{
+          order:2;
+        }
+
+        .f-8{
+          order:1;
+        }
+
+
+      }
+
+      @media only screen and (max-width:500px){
+        .about{
+          padding-right:1rem;
+          padding-left:1rem;
+        }
+
+        .left{
+          padding-left:0;
+        }
+
+        .right{
+          padding-left:0;
+        }
+
+        .about .box-container:first-child{
+          border-bottom:0.3rem solid orange;
+          padding-bottom:2rem;
+        }
+
+        .left img{
+         height:27rem;   
+        }
+
+      }
